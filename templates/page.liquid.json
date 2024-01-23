@@ -1,0 +1,136 @@
+{
+    "sections": {
+      "main": {
+        "type": "main-page",
+        "settings": {
+          "padding_top": 28,
+          "padding_bottom": 28
+        }
+      },
+      "rich_text_RQFGdb": {
+        "type": "rich-text",
+        "blocks": {
+          "heading_M3F8zh": {
+            "type": "heading",
+            "settings": {
+              "heading": "Object",
+              "heading_size": "h1"
+            }
+          }
+        },
+        "block_order": [
+          "heading_M3F8zh"
+        ],
+        "settings": {
+          "desktop_content_position": "center",
+          "content_alignment": "center",
+          "color_scheme": "",
+          "full_width": true,
+          "padding_top": 40,
+          "padding_bottom": 52
+        }
+      },
+      "custom_liquid_T39yED": {
+        "type": "custom-liquid",
+        "settings": {
+          "custom_liquid": "{{page.title}}",
+          "color_scheme": "",
+          "padding_top": 40,
+          "padding_bottom": 52
+        }
+      },
+      "rich_text_kkWF77": {
+        "type": "rich-text",
+        "blocks": {
+          "heading_EfgRXW": {
+            "type": "heading",
+            "settings": {
+              "heading": "Tag",
+              "heading_size": "h1"
+            }
+          }
+        },
+        "block_order": [
+          "heading_EfgRXW"
+        ],
+        "settings": {
+          "desktop_content_position": "center",
+          "content_alignment": "center",
+          "color_scheme": "",
+          "full_width": true,
+          "padding_top": 40,
+          "padding_bottom": 52
+        }
+      },
+      "custom_liquid_FGtCQd": {
+        "type": "custom-liquid",
+        "settings": {
+          "custom_liquid": "{% if page.title == 'Liquid' %}\n  Yes, the title page is Liquid\n{% endif %}",
+          "color_scheme": "",
+          "padding_top": 40,
+          "padding_bottom": 52
+        }
+      },
+      "custom_liquid_6khhwU": {
+        "type": "custom-liquid",
+        "settings": {
+          "custom_liquid": "{% unless page.title == 'Solid' %}\nThe page title is still Liquid\n{% endunless %}",
+          "color_scheme": "",
+          "padding_top": 40,
+          "padding_bottom": 52
+        }
+      },
+      "custom_liquid_7YUzFC": {
+        "type": "custom-liquid",
+        "settings": {
+          "custom_liquid": "{% if page.title == 'Liquid' %}\n  Yes the page title is Liquid\n{% else %}\n  No the page title is not Liquid\n{% endif %}",
+          "color_scheme": "",
+          "padding_top": 40,
+          "padding_bottom": 52
+        }
+      },
+      "rich_text_LAhWJJ": {
+        "type": "rich-text",
+        "blocks": {
+          "heading_kCQMJx": {
+            "type": "heading",
+            "settings": {
+              "heading": "Filter",
+              "heading_size": "h1"
+            }
+          }
+        },
+        "block_order": [
+          "heading_kCQMJx"
+        ],
+        "settings": {
+          "desktop_content_position": "center",
+          "content_alignment": "center",
+          "color_scheme": "",
+          "full_width": true,
+          "padding_top": 40,
+          "padding_bottom": 52
+        }
+      },
+      "custom_liquid_eNXpRF": {
+        "type": "custom-liquid",
+        "settings": {
+          "custom_liquid": "{{ 'hello world' | capitalize}}",
+          "color_scheme": "",
+          "padding_top": 40,
+          "padding_bottom": 52
+        }
+      }
+    },
+    "order": [
+      "main",
+      "rich_text_RQFGdb",
+      "custom_liquid_T39yED",
+      "rich_text_kkWF77",
+      "custom_liquid_FGtCQd",
+      "custom_liquid_6khhwU",
+      "custom_liquid_7YUzFC",
+      "rich_text_LAhWJJ",
+      "custom_liquid_eNXpRF"
+    ]
+  }
